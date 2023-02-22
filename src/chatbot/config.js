@@ -32,17 +32,23 @@ const config = {
       props: {
         questions: [
           {
-            question: "Pergunta 1",
+            question: "Somos uma empresa de tecnologia para te ajudar a crescer!",
             answer:
-              "Resposta 1",
+              "Fornecemos soluções inovadoras para alavancar seus negócios.",
             id: 1,
           },
-          // {
-          //   question: "Pergunta 2",
-          //   answer:
-          //     "Resposta 2",
-          //   id: 2,
-          // },
+          {
+            question: "Nos dedicamos a uma abordagem de mente aberta e colaborativa,",
+            answer:
+              "especialmente para o crescimento e sucesso dos negócios.",
+            id: 2,
+          },
+          {
+            question: "Damos visibilidade ao cliente, otimização, desempenho e automação.",
+            answer:
+              "Vamos juntos crescer e alcançar patamares!",
+            id: 3,
+          },
         ],
       },
     },

@@ -18,7 +18,7 @@ const FlashCard = ({ question, answer, incrementIndex }) => {
       </div>
       {showAnswer && (
         <button onClick={incrementIndex} className="flashcard-button">
-          Next question
+          Próximo
         </button>
       )}
     </>

@@ -13,6 +13,10 @@ const Options = (props) => {
       handler: props.actionProvider.Doubts, 
       id: 2 
     },
+    { text: "Sobre a OpenMind Connect",
+      handler: props.actionProvider.about, 
+      id: 2 
+    },
   ];
 
   const buttonsMarkup = options.map((option) => (

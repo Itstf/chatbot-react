@@ -2,13 +2,14 @@
     width: 100%;
     padding: 12.5px;
     border: none;
-    font-size: 0.85rem;
+    /* font-size: 0.85rem; */
     border-top: 1px solid #d8d8d8;
     border-bottom-left-radius: 5px;
+    outline: 0;
 }
 
 .react-chatbot-kit-chat-btn-send {
-    background-color: #5ef363df;
+    background-color: green;
     width: 100px;
     border: none;
     color: #fff;
@@ -82,7 +83,7 @@
 }
 
 .react-chatbot-kit-chat-btn-send {
-    background-color: #5ef363df;
+    background-color: #17a34b;
     width: 100px;
     border: none;
     color: #fff;
@@ -104,6 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .react-chatbot-kit-chat-bot-message {
@@ -145,6 +147,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .react-chatbot-kit-user-avatar-icon {
@@ -165,4 +168,25 @@
     background: transparent;
     text-align: center;
     border: 1px solid blue;
+}
+
+.flashcard-container {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+    border: 1px solid #17a34b;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flashcard-button {
+    background: transparent;
+    /* padding: 8px; */
+    border-radius: 3px;
+    /* border-color: blue; */
+    /* margin: 5px; */
+    width: 130px;
+    /* border: 1px solid blue; */
+    margin-top: 5px;
+    color: green;
 }

@@ -52,9 +52,6 @@ class ActionProvider {
       );
       const message4 = this.createChatBotMessage(
         "Email: openConnect@gmail.com",
-        {
-          // widget: "javascriptQuiz",
-        }
       );
 
       this.addMessageToState(message);
@@ -96,7 +93,7 @@ class ActionProvider {
     
         this.addMessageToState(message);
       };
-      
+
       Doubt4 = () => {
         const message = this.createChatBotMessage(
           "xyz",
@@ -105,6 +102,15 @@ class ActionProvider {
         this.addMessageToState(message);
       };
 
+    about = () => {
+      const message = this.createChatBotMessage(
+        'aaaa',
+        {
+          widget: "javascriptQuiz",
+        }
+      );
+      this.addMessageToState(message);
+    };
 
     addMessageToState = (message) => {
       this.setState((prevState) => ({
