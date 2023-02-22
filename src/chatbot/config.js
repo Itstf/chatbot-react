@@ -1,12 +1,3 @@
-// import { createChatBotMessage } from "react-chatbot-kit";
-
-// const config = {
-//   botName : 'BotMind',
-//   initialMessages: [createChatBotMessage('Bem vindo ao suporte da OpenMind Connect. Escolha uma das opções: ')],
-// }
-
-// export default config
-
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
